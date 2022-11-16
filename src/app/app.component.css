@@ -1,0 +1,152 @@
+header {
+  width: 100%;
+  height: 50px;
+  background: #cdcdcd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.wrapper table {
+  width: 100%;
+}
+
+.wrapper table tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.wrapper table td {
+  width: 116.6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper table td:first-child {
+  width: 40px;
+}
+
+.wrapper table tbody tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 2px;
+}
+
+.wrapper table tbody tr button {
+  width: 68.60px;
+  cursor: pointer;
+}
+
+.wrapper table tbody tr .btnEdit {
+  margin-left: 24px;
+  background: #eeee4a;
+  border: none;
+  border-radius: 5px;
+}
+
+.wrapper table tbody tr .btnEdit:hover {
+  background: #f7f310;
+  color: white;
+}
+
+.wrapper table tbody tr .btnDelete {
+  margin-left: 46px;
+  background: #fc3636;
+  border: none;
+  border-radius: 5px;
+}
+
+.wrapper table tbody tr .btnDelete:hover {
+  background: #fc2d09;
+  color: white;
+}
+
+.wrapper table tbody tr .email {
+  font-size: 13px;
+}
+
+.wrapper table tbody td {
+  width: 116.6px;
+}
+
+.wrapper table tbody td:first-child {
+  width: 40px;
+}
+
+.edit-area {
+  width: 40%;
+  height: 450px;
+}
+
+.edit-area p {
+  font-size: 18px;
+}
+
+.list-users {
+  width: 55%;
+}
+
+.form-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-user input {
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.form-user input:last-child {
+  margin-top: 10px;
+  background-color: #02ae02;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-user input:last-child:hover {
+  background-color: #2ae02a;
+  color: white;
+}
+
+.form-user .btn-save {
+  background-color: #e7e70f !important;
+}
+/*# sourceMappingURL=app.component.css.map */

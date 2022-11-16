@@ -1,0 +1,136 @@
+header {
+    width: 100%;
+    height: 50px;
+    background: rgb(205, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.wrapper {
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+
+    
+
+    table {
+        width: 100%;
+
+        tr {
+            display: flex;
+            border-bottom: 1px solid rgb(167, 167, 167);
+        }
+
+        td {
+            width: 116.6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:first-child {
+                width: 40px;
+            }
+        }
+
+        tbody {
+            tr {
+                display: flex;
+                padding-bottom: 2px;
+
+                button {
+                    width: 68.60px;
+                    cursor: pointer;
+                }
+
+                .btnEdit {
+                    margin-left: 24px;
+                    background: rgb(238, 238, 74);
+                    border: none;
+                    border-radius: 5px;
+                    &:hover {
+                        background: rgb(247, 243, 16);
+                        color: white;
+                    }
+
+                }
+
+                .btnDelete {
+                    margin-left: 46px;
+                    background: rgb(252, 54, 54);
+                    border: none;
+                    border-radius: 5px;
+                    &:hover {
+                        background: rgb(252, 45, 9);
+                        color: white;
+                    }
+                }
+
+                .email {
+                    font-size: 13px;
+                }
+
+
+            }
+
+            td {
+                width: 116.6px;
+
+                &:first-child {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
+
+.edit-area {
+    width: 40%;
+    height: 450px;
+
+    p {
+        font-size: 18px;
+    }
+}
+
+.list-users {
+    width: 55%;
+}
+
+.form-user {
+    display: flex;
+    flex-direction: column;
+
+    input {
+        margin-bottom: 10px;
+        height: 40px;
+    }
+
+    
+
+    input:last-child {
+        margin-top: 10px;
+        background-color: rgb(2, 174, 2);
+        border-radius: 5px;
+        border: none;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(42, 224, 42);
+            color: white;
+        }
+
+    }
+
+    .btn-save {
+        background-color:rgb(231, 231, 15) !important;
+        
+    }
+
+}
